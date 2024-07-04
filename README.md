@@ -27,3 +27,5 @@ Alena Bordiug <br/>
 Mykola Melnychuk <br/>
 Maksym Ruzhynskyi <br/>
 Volodymyr Saienko <br />
+Oher Oleksandr <br/>
+
