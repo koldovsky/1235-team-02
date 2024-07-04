@@ -23,5 +23,6 @@ document.body.addEventListener('htmx:afterOnLoad', () => {
 ```
 
 # Team 02
-Alena Bordiug
-Mykola Melnychuk
+Alena Bordiug <br/>
+Mykola Melnychuk <br/>
+Maksym Ruzhynskyi <br/>
