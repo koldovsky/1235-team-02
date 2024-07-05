@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #1a1a1a;
+        }
+
+        .header__logo img {
+            vertical-align: middle;
+        }
+
+        .header__logo span {
+            color: #ffcc00;
+            font-weight: bold;
+            font-size: 1.5em;
+            vertical-align: middle;
+            margin-left: 10px;
+        }
+
+        .header__menu-button {
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        .header__menu-button img {
+            width: 30px;
+        }
+
+        .hero {
+            background-color: #1a1a1a;
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .hero__title {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .contacts {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .contacts__info,
+        .contacts__form {
+            width: 48%;
+        }
+
+        .contacts__info h2 {
+            font-size: 2em;
+        }
+
+        .contacts__info p,
+        .contacts__info address,
+        .contacts__info div {
+            margin: 20px 0;
+        }
+
+        .contacts__info address,
+        .contacts__info div {
+            color: orange;
+        }
+
+        .contacts__form form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contacts__form label {
+            margin-bottom: 10px;
+        }
+
+        .contacts__form input {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+        }
+
+        .contacts__form button {
+            background-color: #ffcc00;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        .contacts__form button:hover {
+            background-color: #e6b800;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img src="img/pricing/logo.svg" alt="Chess World Logo" width="50" />
+            <span>CHESS WORLD</span>
+        </div>
+        <button class="header__menu-button" aria-label="Open menu">
+            <img src="#" alt="Menu Icon" />
+        </button>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <h1 class="hero__title">CONTACTS</h1>
+        </section>
+
+        <section class="contacts">
+            <div class="contacts__info">
+                <h2>Contacts</h2>
+                <p>
+                    If you want to sign up for a trial lesson, fill out the form on the
+                    right, select a convenient date, and we will contact you.
+                </p>
+                <address>
+                    <p><strong>Address</strong></p>
+                    <p>560 Malcolm X Blvd, New York, NY 10037, USA</p>
+                </address>
+                <div class="contacts__hours">
+                    <p><strong>Hours</strong></p>
+                    <p>Monday - Sunday: 11 AM - 9 PM</p>
+                </div>
+                <div class="contacts__details">
+                    <p><strong>Contacts</strong></p>
+                    <p>+1 (234) 567 89 00</p>
+                    <p>chessworld@email.com</p>
+                </div>
+            </div>
+            <div class="contacts__form">
+                <form action="#" method="post">
+                    <label>
+                        <input type="text" name="name" placeholder="Enter your full name" required />
+                    </label>
+                    <label>
+                        <input type="tel" name="phone" placeholder="Enter your phone number" required />
+                    </label>
+                    <label>
+                        <input type="email" name="email" placeholder="Enter your e-mail" required />
+                    </label>
+                    <label>
+                        <input type="date" name="date" placeholder="Choose date" required />
+                    </label>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3080.499628075264!2d-0.3585194888530805!3d39.45804011331202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6048c3ee71cb3b%3A0x21a145b7e0c8adb6!2sPalau%20de%20Les%20Arts%20de%20Valencia!5e0!3m2!1ses!2ses!4v1720175993498!5m2!1ses!2ses"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </footer>
+</body>
+
+</html>
