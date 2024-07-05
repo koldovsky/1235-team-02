@@ -12,22 +12,26 @@
         crossorigin="anonymous"></script>
 
     <head>
-        <header>
-            <nav class="nav" data-hx-trigger="load" 
+        <header class="header">
+            <nav class="header__nav"
+                data-hx-trigger="load"
                 data-hx-swap="outerHTML"
                 data-hx-get="global.header-nav.partial.html">
             </nav>
-            <div class="index-hero"
-         data-hx-trigger="load"
-         data-hx-swap="outerHTML"
-         data-hx-get="pricing.header-hero.partial.html">
+            <div class="header__hero"
+                data-hx-trigger="load"
+                data-hx-swap="outerHTML"
+                data-hx-get="pricing.header-hero.partial.html">
             </div>
-      
         </header>
     </head>
 
-<body>
-
-</body>
+    <body>
+        <div class="index-hero" 
+             data-hx-trigger="load" 
+             data-hx-swap="outerHTML"
+             data-hx-get="pricing.body.partial">
+        </div>
+    </body>
 
 </html>
