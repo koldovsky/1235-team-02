@@ -30,3 +30,5 @@ Volodymyr Saienko <br />
 Oher Oleksandr <br/>
 Tetiana Mykhailiuk <br/>
 Maksym Lytvyn <br/>
+
+Khrystyna Maksimiv <br/>
