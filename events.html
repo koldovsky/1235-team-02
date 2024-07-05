@@ -7,28 +7,50 @@
     <title>Events</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link
+            rel="shortcut icon"
+            href="https://placekitten.com/96/139"
+            type="image/x-icon"
+    />
+    <script
+            src="https://unpkg.com/htmx.org@1.9.10"
+            integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+            crossorigin="anonymous"
+    ></script>
 
-    <header class="header">
-        <nav class=""
+    <header class="header" style="background-image: url('img/Events-header.png');  background-size: 100% 100%; background-repeat: no-repeat; background-position: center; height: 500px">
+        <nav class="navigation"
             data-hx-trigger="load"
             data-hx-swap="outerHTML"
             data-hx-get="global.header-nav.partial.html">
         </nav>
-        <div class=""
-            data-hx-trigger="load"
-            data-hx-swap="outerHTML"
-            data-hx-get="pricing.header-hero.partial.html">
-            
-        </div>
+        <div class="events-hero"
+         data-hx-trigger="load"
+         data-hx-swap="outerHTML"
+         data-hx-get="events.header-hero.partial.html"
+    ></div>
     </header>
 
   </head>
   
   <body>
-    <div class="index-hero" 
+    <div class="" 
              data-hx-trigger="load" 
              data-hx-swap="outerHTML"
              data-hx-get="events.DMOE.partial">
         </div>
+    
+        <div class="" 
+             data-hx-trigger="load" 
+             data-hx-swap="outerHTML"
+             data-hx-get="events.events-list.partial">
+        </div>
+        <div class="" 
+             data-hx-trigger="load" 
+             data-hx-swap="outerHTML"
+             data-hx-get="events.reserve.partial">
+        </div>
+        
   </body>
+  
 </html>
