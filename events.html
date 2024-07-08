@@ -4,9 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Events</title>
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <title>Chess Club: Events</title>
     <link
       rel="shortcut icon"
       href="https://placekitten.com/96/139"
@@ -23,7 +21,7 @@
     <header
       class="header"
       style="
-        background-image: url('img/Events-header.png');
+        background-image: url('img/pages-hero/events-hero.png');
         background-size: 100% 100%;
         background-repeat: no-repeat;
         background-position: center;
@@ -44,21 +42,21 @@
       ></div>
     </header>
     <main>
-         <div
+      <section
            data-hx-trigger="load"
            data-hx-swap="outerHTML"
            data-hx-get="events.dmoe.partial"
-         ></div>
-         <div
+      ></section>
+      <section
            data-hx-trigger="load"
            data-hx-swap="outerHTML"
            data-hx-get="events.events-list.partial"
-         ></div>
-         <div
+      ></section>
+      <section
            data-hx-trigger="load"
            data-hx-swap="outerHTML"
            data-hx-get="events.reserve.partial"
-         ></div>
+      ></section>
     </main>
   </body>
 </html>

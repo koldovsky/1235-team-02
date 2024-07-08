@@ -20,7 +20,7 @@
     <header
       class="header"
       style="
-        background-image: url('img/pagesHero/indexBg.png');
+        background-image: url('img/pages-hero/index-bg.png');
         color: white;
         background-size: cover;
         background-repeat: no-repeat;
@@ -65,7 +65,12 @@
       <section
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
-        data-hx-get="index.championship.partial.html"
+        data-hx-get="index.schedule.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="global.championship.partial.html"
       ></section>
     </main>
   </body>
