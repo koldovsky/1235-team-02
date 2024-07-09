@@ -18,6 +18,8 @@
 
 .discount-inner__text {
   color: var(--text-color-white);
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
   font-size: 1.25rem;
   line-height: 1.5;
   margin-top: 2.8rem;
@@ -26,6 +28,8 @@
 .discount-inner__register-button {
   background-color: var(--btn-color-white);
   display: inline-block;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
   font-size: 1rem;
   color: black;
   padding: 18px 26px;
