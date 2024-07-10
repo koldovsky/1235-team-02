@@ -1,54 +1,79 @@
-.nav {
+.nav-wrapper {
+  background-color: var(--nav-bg);
+
+  .nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-direction: column;
     color: var(--text-color);
     padding: 30px 0;
 
     .nav__logo-link {
-        flex: 1;
+      flex: 1;
+      margin-bottom: 20px;
 
-        .nav__logo-image {
-            max-width: 96px;
-        }
+      .nav__logo-image {
+        max-width: 96px;
+      }
     }
 
 
     .nav__menu {
-        flex: 1;
-        display: flex;
-        list-style: none;
-        justify-content: space-between;
-        align-items: center;
+      flex: 1;
+      display: flex;
+      list-style: none;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      gap: 10px;
 
-        .nav__menu-item {
-            cursor: pointer;
 
-            .nav__menu-link {
-                text-decoration: none;
-                color: var(--text-color);
-                font-size: 17px;
-                font-weight: 400;
-            }
+      .nav__menu-item {
+        cursor: pointer;
 
-            .nav__menu-hover-element {
-                background-color: var(--border-color);
-                height: 2px;
-                width: 0;
-                transition: all .2s ease-in-out;
-                margin-top: 3px;
-            }
-
-            &:hover {
-                .nav__menu-link {
-                    color: var(--text-color-spotlight);
-                }
-
-                .nav__menu-hover-element {
-                    width: 100%;
-                }
-            }
+        .nav__menu-link {
+          text-decoration: none;
+          color: var(--text-color);
+          font-size: 17px;
+          font-weight: 400;
         }
 
+        .nav__menu-hover-element {
+          background-color: var(--border-color);
+          height: 2px;
+          width: 0;
+          transition: all .2s ease-in-out;
+          margin-top: 3px;
+        }
+
+        &:hover {
+          .nav__menu-link {
+            color: var(--text-color-spotlight);
+          }
+
+          .nav__menu-hover-element {
+            width: 100%;
+          }
+        }
+      }
+
     }
+  }
+}
+
+
+@media screen and (min-width: 990px) {
+  .nav {
+    flex-direction: row!important;
+
+    .nav__logo-link {
+      margin-bottom: 0!important;
+    }
+
+    .nav__menu {
+      flex-direction: row!important;
+      gap: 0!important;
+    }
+  }
 }
