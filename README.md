@@ -31,3 +31,4 @@ Oher Oleksandr <br/>
 Tetiana Mykhailiuk <br/>
 Maksym Lytvyn <br/>
 Pavlo Korylkevych <br/>
+Anastasia Rakuta <br/>
