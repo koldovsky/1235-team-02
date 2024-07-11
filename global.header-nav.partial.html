@@ -1,39 +1,49 @@
 <nav class="nav-wrapper">
   <div class="container">
     <div class="nav">
-      <a class="nav__logo-link" href="./">
-      <img
-          class="nav__logo-image"
-          src="img/logo.svg"
-          alt="Logo of Chess World Club"
-      />
-    </a>
-    <ul class="nav__menu">
-      <li class="nav__menu-item">
-        <a class="nav__menu-link" href="#">About Us</a>
-        <div class="nav__menu-hover-element"></div>
-      </li>
-      <li class="nav__menu-item">
-        <a class="nav__menu-link" href="pricing.html">Pricing</a>
-        <div class="nav__menu-hover-element"></div>
-      </li>
-      <li class="nav__menu-item">
-        <a class="nav__menu-link" href="events.html">Events</a>
-        <div class="nav__menu-hover-element"></div>
-      </li>
-      <li class="nav__menu-item">
-        <a class="nav__menu-link" href="results.html">Results</a>
-        <div class="nav__menu-hover-element"></div>
-      </li>
-      <li class="nav__menu-item">
-        <a class="nav__menu-link" href="#">FAQ</a>
-        <div class="nav__menu-hover-element"></div>
-      </li>
-      <li class="nav__menu-item">
-        <a class="nav__menu-link" href="contacts.html">Contacts</a>
-        <div class="nav__menu-hover-element"></div>
-      </li>
-    </ul>
+      <input type="checkbox" class="nav__burger" id="nav__burger" aria-hidden="true"/>
+      <div class="nav__burger-and-logo">
+        <a class="nav__logo-link" href="./">
+          <img class="nav__logo-image" src="img/logo.svg" alt="Logo of Chess World Club"/>
+        </a>
+        <label for="nav__burger" class="nav__burger__label" aria-hidden="true">
+          <span class="nav__burger__label__open">
+            <span class="nav__burger__label__open__element"></span>
+            <span class="nav__burger__label__open__element"></span>
+            <span class="nav__burger__label__open__element"></span>
+          </span>
+          <span class="nav__burger__label__close">
+            <span class="nav__burger__label__close__element-first"></span>
+            <span class="nav__burger__label__close__element-second"></span>
+          </span>
+        </label>
+      </div>
+      <ul class="nav__menu">
+        <li class="nav__menu-item">
+          <a class="nav__menu-link" href="#">About Us</a>
+          <div class="nav__menu-hover-element"></div>
+        </li>
+        <li class="nav__menu-item">
+          <a class="nav__menu-link" href="pricing.html">Pricing</a>
+          <div class="nav__menu-hover-element"></div>
+        </li>
+        <li class="nav__menu-item">
+          <a class="nav__menu-link" href="events.html">Events</a>
+          <div class="nav__menu-hover-element"></div>
+        </li>
+        <li class="nav__menu-item">
+          <a class="nav__menu-link" href="results.html">Results</a>
+          <div class="nav__menu-hover-element"></div>
+        </li>
+        <li class="nav__menu-item">
+          <a class="nav__menu-link" href="#">FAQ</a>
+          <div class="nav__menu-hover-element"></div>
+        </li>
+        <li class="nav__menu-item">
+          <a class="nav__menu-link" href="contacts.html">Contacts</a>
+          <div class="nav__menu-hover-element"></div>
+        </li>
+      </ul>
     </div>
   </div>
 </nav>

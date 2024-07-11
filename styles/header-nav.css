@@ -7,25 +7,89 @@
     justify-content: space-between;
     flex-direction: column;
     color: var(--text-color);
+    gap: 20px;
     padding: 30px 0;
 
-    .nav__logo-link {
+    .nav__burger-and-logo {
       flex: 1;
-      margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      user-select: none;
 
-      .nav__logo-image {
+      .nav__burger__label {
+        .nav__burger__label__open, .nav__burger__label__close {
+          cursor: pointer;
+        }
+
+        .nav__burger__label__open__element, .nav__burger__label__close__element-first, .nav__burger__label__close__element-second {
+          width: 20px;
+          height: 2px;
+          background-color: snow;
+        }
+
+        .nav__burger__label__open {
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+        }
+
+        .nav__burger__label__close {
+          position: relative;
+
+          .nav__burger__label__close__element-first {
+            position: absolute;
+            transform: rotateZ(140deg);
+            right: 0;
+          }
+
+          .nav__burger__label__close__element-second {
+            position: absolute;
+            transform: rotateZ(-140deg);
+            right: 0;
+          }
+        }
+      }
+
+      .nav__logo-link {
+        flex: 1;
         max-width: 96px;
       }
     }
 
-    .nav__menu {
-      flex: 1;
+    .nav__burger, .nav__burger__label__close {
+      display: none;
+    }
+
+    .nav__burger:checked ~ .nav__burger-and-logo .nav__burger__label__close {
+      display: block;
+    }
+
+    .nav__burger:checked ~ .nav__burger-and-logo .nav__burger__label__open {
+      display: none;
+    }
+
+    .nav__burger:checked ~ .nav__menu {
       display: flex;
+      height: auto;
+    }
+
+    .nav__burger__label {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .nav__menu {
+      display: none;
+      flex-direction: column;
       list-style: none;
       justify-content: space-between;
       align-items: center;
-      flex-direction: column;
       gap: 10px;
+      height: 0;
+      transition: all .3s ease;
+      flex: 1;
 
       .nav__menu-item {
         cursor: pointer;
@@ -59,16 +123,18 @@
   }
 
   @media (min-width: 990px) {
+    .nav__burger-and-logo {
+      .nav__burger__label {
+        display: none;
+      }
+    }
+
     .nav {
       flex-direction: row;
-
-      .nav__logo-link {
-        margin-bottom: 0;
-      }
-
       .nav__menu {
+        display: flex;
         flex-direction: row;
-        gap: 0;
+        height: 100%;
       }
     }
   }
