@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-@import url('index-styles/index.css');
 @import url('variables.css');
 
 
@@ -29,8 +28,8 @@ img {
     width: 100%;
 }
 
-@media screen and (min-width: 990px) {
-    .container{
-        padding: 0 15px!important;
+@media (min-width: 990px) {
+    .container {
+        padding: 0 15px;
     }
 }
