@@ -19,7 +19,7 @@
 
 .container {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: auto;
     padding: 0 40px;
 }
 
@@ -28,7 +28,39 @@ img {
     width: 100%;
 }
 
+.page-hero {
+    padding: 100px 0;
+    max-height: 435px;
+    background-repeat: no-repeat;
+    background-position: 0 80%;
+    background-size: cover;
+
+    .page-hero__title {
+        font-family: 'Oswald', sans-serif;
+        color: var(--text-color-white);
+        font-size: 60px;
+    }
+}
+
+@media (min-width: 768px) {
+    .page-hero {
+        padding: 135px 0;
+
+        .page-hero__title {
+            font-size: 77px;
+        }
+    }
+}
+
 @media (min-width: 990px) {
+    .page-hero {
+        padding: 160px 0;
+
+        .page-hero__title {
+            font-size: 95px;
+        }
+    }
+
     .container {
         padding: 0 15px;
     }

@@ -1,0 +1,6 @@
+@import "../global.css";
+@import "../header-nav.css";
+
+.results{
+  background-image: url("../../img/pages-hero/results-bg-header.png");
+}
