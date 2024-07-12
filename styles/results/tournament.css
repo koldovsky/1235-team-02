@@ -1,0 +1,108 @@
+.tournament {
+  margin: 90px 0;
+
+  .tournament__intro {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    gap: 30px;
+
+    .tournament__image {
+      width: 100%;
+      max-width: 440px;
+      max-height: 470px;
+    }
+
+    .tournament__content {
+      width: 100%;
+
+      .tournament__text {
+        font-family: 'PT Sans', serif;
+        font-size: 17px;
+        font-weight: 400;
+        color: var(--text-color-grey);
+      }
+    }
+  }
+
+  .tournament__carousel {
+    margin: 130px 0 90px 0;
+
+    .carousel {
+      .carousel__track {
+        display: grid;
+        gap: 30px;
+        align-items: center;
+
+        .carousel__slide {
+          border: var(--accent-result-color) 2px solid;
+          width: 100%;
+          padding: 31px 27px;
+
+          .carousel__year {
+            color: var(--text-color-black);
+            font-family: 'Oswald', serif;
+            font-weight: 700;
+            font-size: 28px;
+            text-align: center;
+            margin-bottom: 30px;
+          }
+
+          .carousel__links {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 20px;
+
+            .carousel__link {
+              font-family: "PT Sans", sans-serif;
+              font-size: 17px;
+              font-weight: 700;
+              color: var(--tournament-second-text-color);
+              text-decoration: none;
+              cursor: pointer;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .tournament {
+    .tournament__intro {
+      grid-template-columns: repeat(2, 2fr);
+    }
+
+    .tournament__carousel {
+      .carousel {
+        .carousel__track {
+          grid-template-columns: repeat(2, 1fr);
+
+          .carousel__slide {
+
+            .carousel__year {
+              font-weight: 700;
+              font-size: 32px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 991px) {
+  .tournament {
+    .tournament__carousel {
+      .carousel {
+        .carousel__track {
+          grid-template-columns: repeat(5, 1fr);
+        }
+      }
+    }
+  }
+}
