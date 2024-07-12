@@ -1,7 +1,7 @@
-@import "../header-nav.css";
-@import "../about-us.css";
-@import "../discount.css";
-@import "../offer.css";
+@import "../global/header-nav.css";
+@import "about-us.css";
+@import "discount.css";
+@import "offer.css";
 @import "header-hero.css";
-@import "../global.css";
-@import "../events-list.css";
+@import "../global/global.css";
+@import "events-list.css";

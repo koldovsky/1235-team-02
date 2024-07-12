@@ -1,5 +1,5 @@
-@import "../global.css";
-@import "../header-nav.css";
+@import "../global/global.css";
+@import "../global/header-nav.css";
 @import "./tournament.css";
 @import "./gallery.css";
 @import "./video.css";
