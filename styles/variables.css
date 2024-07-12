@@ -2,8 +2,8 @@
     --accent-color: #d78c43;
     --text-color: #bbbbbb;
     --text-color-white: #ffffff;
+    --text-color-grey: #808080;
     --text-color-black: #1D1D1DFF;
-    --text-color-grey: #808080FF;
     --text-color-spotlight: #91cc3d;
     --btn-color-white: #ffffff;
     --btn-color-green: #91cc3d;
@@ -11,4 +11,6 @@
     --border-color-blue: #01a6e2FF;
     --nav-bg: #0b121f;
     --ui-dark-shade-color: #1d1d1d;
+    --accent-result-color: #01A6E2;
+    --tournament-second-text-color: grey;
 }

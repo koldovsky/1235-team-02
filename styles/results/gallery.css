@@ -1,0 +1,38 @@
+.gallery-wrapper {
+  background-color: var(--accent-result-color);
+  color: var(--text-color-white);
+  padding: 90px 0;
+
+  .gallery {
+    .gallery__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .gallery__title {
+        text-align: center;
+      }
+
+      .gallery__description {
+        font-family: "PT Sans", sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        margin: 25px 0 45px 0;
+      }
+    }
+
+    .gallery__images {
+      .gallery__image-container {
+        margin-bottom: 10px;
+      }
+
+      .gallery__thumbnails{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 5px;
+        cursor: pointer;
+        border: none;
+      }
+    }
+  }
+}

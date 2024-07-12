@@ -1,6 +1,45 @@
 @import "../global.css";
 @import "../header-nav.css";
+@import "./tournament.css";
+@import "./gallery.css";
+
+[class*="__divider"] {
+  margin: 25px 0 20px 0;
+  height: 32px;
+  width: 405px;
+}
 
 .results{
   background-image: url("../../img/pages-hero/results-bg-header.png");
+}
+
+[class*='__title'] {
+  font-family: 'Oswald', sans-serif;
+  font-size: 34px;
+}
+
+/* Поки нема js (карусель) прибрав кнопки та інші картинки, щоб не відволікало */
+
+.gallery__images {
+  .gallery__image-container:not(:first-of-type) {
+    display: none;
+  }
+}
+
+.carousel__button, .gallery__button {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  [class*='__title'] {
+    font-family: 'Oswald', sans-serif;
+    font-size: 41px;
+  }
+}
+
+@media (min-width: 991px) {
+  [class*='__title'] {
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+  }
 }
