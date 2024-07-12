@@ -17,6 +17,10 @@
       width: 100%;
       user-select: none;
 
+      .nav__logo-link{
+        max-width: 96px;
+      }
+
       .nav__burger__label {
         .nav__burger__label__open, .nav__burger__label__close {
           cursor: pointer;
