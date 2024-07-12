@@ -1,0 +1,53 @@
+.video{
+  margin: 90px auto 50px;
+  text-align: center;
+
+  .video__description{
+    font-size: 20px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    margin: 25px 0 50px 0;
+  }
+  .video__thumbnails{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    gap: 30px;
+
+    .video__thumbnail{
+      position: relative;
+
+      .video__thumbnail-image{
+        max-width: 570px;
+        height: auto;
+      }
+
+      .video__thumbnail-icon{
+        width: 50px;
+        position: absolute;
+        bottom: 50%;
+        transform: translate(-50%, 50%);
+      }
+    }
+  }
+}
+
+@media (min-width: 560px) {
+  .video{
+    .video__thumbnails{
+      .video__thumbnail{
+        .video__thumbnail-image{
+          height: 490px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 990px){
+  .video{
+    .video__thumbnails{
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}

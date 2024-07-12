@@ -1,0 +1,58 @@
+.why{
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  gap: 30px;
+
+  .why__content{
+
+     .why__image{
+      max-width: 225px;
+      max-height: 470px;
+    }
+
+    .why__description, .why__skills {
+      font-family: 'PT Sans', serif;
+      font-size: 17px;
+      font-weight: 400;
+      color: var(--text-color-grey);
+    }
+
+    .why__description {
+      max-width: 240px;
+      margin-bottom: 35px;
+    }
+
+    .why__skills {
+      margin-left: 30px;
+
+      .why__skill:nth-child(2){
+        margin: 15px 0;
+      }
+
+      .why__skill::marker{
+        color: var(--markers-color);
+      }
+    }
+  }
+}
+
+@media (min-width: 360px) {
+  .why {
+    .why__content{
+      .why__image {
+        max-width: 440px;
+      }
+
+      .why__description {
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .why {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

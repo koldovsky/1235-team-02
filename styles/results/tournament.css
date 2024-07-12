@@ -8,13 +8,12 @@
     gap: 30px;
 
     .tournament__image {
-      width: 100%;
-      max-width: 440px;
+      max-width: 225px;
       max-height: 470px;
     }
 
     .tournament__content {
-      width: 100%;
+      max-width: 240px;
 
       .tournament__text {
         font-family: 'PT Sans', serif;
@@ -90,6 +89,20 @@
             }
           }
         }
+      }
+    }
+  }
+}
+
+@media (min-width: 360px) {
+  .tournament {
+    .tournament__intro {
+      .tournament__image {
+        max-width: 440px;
+      }
+
+      .tournament__content {
+        max-width: 100%;
       }
     }
   }

@@ -33,6 +33,20 @@
         cursor: pointer;
         border: none;
       }
+
+      .gallery__thumbnail{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+
+        &:not(:first-of-type) {
+          opacity: .7;
+        }
+
+        &:hover{
+          opacity: 1;
+        }
+      }
     }
   }
 }
