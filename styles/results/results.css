@@ -2,11 +2,13 @@
 @import "../header-nav.css";
 @import "./tournament.css";
 @import "./gallery.css";
+@import "./video.css";
 
 [class*="__divider"] {
   margin: 25px 0 20px 0;
   height: 32px;
   width: 405px;
+  max-width: 240px;
 }
 
 .results{
