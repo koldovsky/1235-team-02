@@ -1,32 +1,36 @@
-.about-us {
-  margin-top: 5.6rem;
+.about-us__image > img {
+  min-height: 131px;
+  object-fit: cover;
+}
 
-  .about-us__image > img {
-    min-height: 131px;
-  }
+.about-us__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .about-us__heading {
-    font-family: "Oswald", sans-serif;
-    font-size: 2rem;
-    color: var(--text-color-black);
-    text-align: center;
-    margin-top: 1rem;
-  }
+.about-us__heading {
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  color: var(--text-color-black);
+  text-align: center;
+  margin-top: 1rem;
+}
 
-  .about-us__separator {
-    height: 32px;
-    width: 394px;
-    display: block;
-  }
+.about-us__separator {
+  margin-top: 1.2rem;
+  max-width: 272px;
+  display: block;
+}
 
-  .about-us__main-text {
-    font-size: 1rem;
-    color: var(--text-color-grey);
-    font-weight: 400;
-    line-height: 1.5;
-    margin-top: 1rem;
-    text-align: center;
-  }
+.about-us__main-text {
+  font-size: 1rem;
+  color: var(--text-color-grey);
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 1rem;
+  text-align: center;
+  min-width: 273px;
 }
 
 .info-cards-wrapper {
@@ -35,6 +39,7 @@
   flex-wrap: wrap;
   margin-top: 2rem;
   gap: 30px;
+  margin-bottom: 5rem;
 }
 
 .info-card {
@@ -77,9 +82,31 @@
   margin-top: 1.2rem;
 }
 
-@media (min-width: 1440px) {
-  .about-us__content {
-    max-width: 1100px;
+@media (min-width: 768px) {
+  .about-us__heading {
+    font-size: 2.5rem;
+  }
+
+  .about-us__main-text {
+    max-width: 680px;
+  }
+
+  .about-us__separator {
+    width: 250px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .about-us__heading {
+    font-size: 3rem;
+  }
+
+  .about-us__main-text {
+    max-width: 890px;
+  }
+
+  .about-us__separator {
+    width: 150px;
   }
 
   .info-card__text {
