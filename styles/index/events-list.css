@@ -8,4 +8,21 @@
 
 .events__item {
     border: 1px solid var(--dark-border-color);
+    background-color: var(--ui-dark-red-shade-color);
+}
+
+.events__item-date {
+    color: var(--ui-brand-color);
+}
+
+.events__item-speaker {
+    color: var(--text-color-white);
+}
+
+.events__item-link {
+    color: var(--text-color-white);
+}
+
+.events__item-description {
+    color: var(--text-color-white);
 }
