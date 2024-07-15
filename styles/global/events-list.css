@@ -15,6 +15,22 @@
     margin-top: 50px;
 }
 
+.events__title {
+    font-family: "Oswald", sans-serif;
+    font-size: 34px;
+}
+
+.events__img {
+    margin-top: 25px;
+}
+
+.events__description {
+    margin-top: 20px;
+    font-family: "PT Sans", sans-serif;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
 .events__description {
     text-align: center;
 }
