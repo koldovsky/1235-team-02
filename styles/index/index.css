@@ -4,4 +4,5 @@
 @import "offer.css";
 @import "header-hero.css";
 @import "../global/global.css";
-@import "events-list.css";
+@import "../global/events-list.css";
+@import "events-list.css"
