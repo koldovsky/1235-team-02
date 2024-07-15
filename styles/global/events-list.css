@@ -115,11 +115,13 @@
         justify-content: space-between;
     }
     .events__item {
+        margin-top: 30px;
         flex-direction: row;
         align-items: center;
     }
     .events__item-image {
         margin-top: 0;
+        max-width: 170px;
     }
     .events__item-content {
         margin-top: 0;
