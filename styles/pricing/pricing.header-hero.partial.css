@@ -16,13 +16,13 @@
   align-items: center;
   width: 60%;
 }
-@media (max-width: 500px) {
-  .pricing-hero__title {
-    font-size: 2rem;
-  }
-}
 @media (max-width: 700px) {
   .pricing-hero__title {
     font-size: 4rem;
+  }
+}
+@media (max-width: 500px) {
+  .pricing-hero__title {
+    font-size: 2rem;
   }
 }
