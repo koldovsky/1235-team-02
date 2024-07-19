@@ -1,0 +1,30 @@
+.events-hero {
+    background-image: url("../../img/pages-hero/events-hero.png");
+    background-size: cover;
+    height: 450px;
+    margin-bottom: 100px;
+    width: auto;
+    background-position: center;
+  }
+
+  .events-hero__title {
+    font-family: "Oswald", sans-serif;
+    color: white;
+    padding-left: 170px;
+    padding-top: 80px;
+    font-size: 600%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    width: 60%;
+  }
+  @media (max-width: 700px) {
+    .pricing-hero__title {
+      font-size: 4rem;
+    }
+  }
+  @media (max-width: 500px) {
+    .pricing-hero__title {
+      font-size: 2rem;
+    }
+  }
