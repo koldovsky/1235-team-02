@@ -9,13 +9,19 @@ function DNAtoRNA(dna) {
 }
 
 // https://www.codewars.com/kata/577a98a6ae28071780000989/train/javascript
-const min = function (list) {
-  return list.sort((a, b) => a - b)[0];
-};
+const min = function(list){
+  return list.reduce((acc, cur) => {
+    if (acc > cur) acc = cur
+    return acc
+  }, list[0])
+}
 
-const max = function (list) {
-  return list.sort((a, b) => b - a)[0];
-};
+const max = function(list){
+  return list.reduce((acc, cur) => {
+    if (acc < cur) acc = cur
+    return acc
+  }, list[0])
+}
 
 // https://www.codewars.com/kata/544a54fd18b8e06d240005c0/train/javascript
 function min(arr, toReturn) {
