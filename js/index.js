@@ -1,6 +1,7 @@
 function init() {
     import('./faq.main.js');
     import('./index.about-us-info-cards.js');
+    import('./index.offer-carousel.js');
   }
   
   const totalPartials = document.querySelectorAll('[hx-trigger="load"], [data-hx-trigger="load"]').length;
