@@ -149,9 +149,7 @@ const renderEvents = () => {
         `;
     }
 
-    setTimeout(() => {
-        document.querySelector('.events__list').innerHTML = eventsHtml;
-    }, 100)
+    document.querySelector('.events__list').innerHTML = eventsHtml;
 };
 
 

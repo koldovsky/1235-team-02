@@ -2,7 +2,6 @@
 @import "../global/header-nav.css";
 @import "../events/events.header-hero.partial.css";
 @import "../events/events.dmoe.partial.css";
-@import "../events/events.events-list.partial.css";
 @import "../events/events.reserve.partial.css";
 
 @import "../global/events-list.css";
