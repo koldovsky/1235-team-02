@@ -32,6 +32,18 @@
     color: var(--text-color-white);
 }
 
+.events__more-link {
+    display: block;
+}
+
+.events__reserve-link {
+    display: none;
+}
+
+.events__learn-link {
+    display: none;
+}
+
 @media(min-width: 768px) {
     .events__header {
         max-width: calc(100%* var(--w-grid-column-size, 7) / 12);
