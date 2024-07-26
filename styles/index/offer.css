@@ -32,22 +32,28 @@
 .offer-carousel {
   margin-top: 2rem;
   margin-bottom: 3rem;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); 
-  gap: 1rem; 
+  display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 450px;
-  position: relative; 
+  flex-direction: column;
 }
 
 .offer-carousel__container {
-  display: contents; 
+  display: contents;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-bottom: 1rem;
 }
 
 .offer-carousel__item {
   position: relative;
   overflow: hidden;
+  min-height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
   padding: 60px;
 }
 
@@ -66,6 +72,8 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: space-between;
+  min-height: 420px;
 }
 
 .carousel__title {
@@ -110,10 +118,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute; 
+  /* position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  z-index: 10;
+  z-index: 10; */
 }
 
 .offer-carousel__button--left img {
@@ -153,8 +161,13 @@
     font-size: 2.5rem;
   }
 
+  .offer-carousel__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .offer-carousel__item {
     padding: 60px;
+    min-height: 500px;
   }
 
   .offer__separator {
@@ -168,11 +181,15 @@
   }
 
   .offer-carousel__item {
-    padding: 120px;
+    padding: 80px;
+    min-height: 300px;
+  }
+
+  .offer-carousel__content {
+    min-height: 200px;
   }
 
   .offer__separator {
     width: 150px;
   }
 }
-
