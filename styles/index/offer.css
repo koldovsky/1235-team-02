@@ -32,6 +32,17 @@
 .offer-carousel {
   margin-top: 2rem;
   margin-bottom: 3rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 1rem; 
+  align-items: center;
+  justify-content: center;
+  min-height: 450px;
+  position: relative; 
+}
+
+.offer-carousel__container {
+  display: contents; 
 }
 
 .offer-carousel__item {
@@ -99,10 +110,22 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: absolute; 
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
 }
 
 .offer-carousel__button--left img {
   transform: rotate(180deg);
+}
+
+.offer-carousel__button--left {
+  left: -2%;
+}
+
+.offer-carousel__button--right {
+  right: -2%;
 }
 
 .offer-carousel__indicator {
@@ -152,3 +175,4 @@
     width: 150px;
   }
 }
+
