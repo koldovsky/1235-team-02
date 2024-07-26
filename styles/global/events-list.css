@@ -126,6 +126,9 @@
     font-weight: 700;
     font-family: "PT Sans", sans-serif;
     font-size: 15px;
+    display: block;
+    display: flex;
+    align-items: center;
 }
 
 .events__more-link {
@@ -139,7 +142,7 @@
 .events__learn-link {
     background-color: transparent;
     border: 3px solid var(--ui-dark-shade-color);
-    border-radius: none;
+    border-radius: 0;
 }
 
 @media(min-width: 768px) {
