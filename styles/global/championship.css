@@ -1,0 +1,22 @@
+/*.championship{
+    
+}
+*/
+.championship_title{
+    color: var(text-color-black);    
+}
+
+
+
+@media (max-width: 1024px) {
+    .championship{         
+        background-position: center;
+        background-size:cover;  
+        padding-top: 90px;
+        padding-bottom: 50px;
+        padding-left: 0px;
+        padding-right: 0px;      
+      
+    }  
+    
+  }
