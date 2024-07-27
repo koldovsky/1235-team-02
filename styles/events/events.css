@@ -1,0 +1,7 @@
+@import "../global/global.css";
+@import "../global/header-nav.css";
+@import "../events/events.header-hero.partial.css";
+@import "../events/events.dmoe.partial.css";
+@import "../events/events.reserve.partial.css";
+
+@import "../global/events-list.css";

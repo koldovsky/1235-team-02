@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Chess Club: Events</title>
-    <link rel="stylesheet" href="styles/global/global.css">
+    <link rel="stylesheet" href="styles/events/events.css">
     <link
       rel="shortcut icon"
       href="https://placekitten.com/96/139"
@@ -42,9 +42,9 @@
            data-hx-get="events.dmoe.partial"
       ></section>
       <section
-           data-hx-trigger="load"
-           data-hx-swap="outerHTML"
-           data-hx-get="events.events-list.partial"
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="global.events-list.partial.html"
       ></section>
       <section
            data-hx-trigger="load"
@@ -52,5 +52,7 @@
            data-hx-get="events.reserve.partial"
       ></section>
     </main>
+
+    <script src="js/events.js"></script>
   </body>
 </html>
