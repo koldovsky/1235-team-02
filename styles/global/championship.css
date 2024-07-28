@@ -1,22 +1,166 @@
-/*.championship{
-    
-}
-*/
-.championship_title{
-    color: var(text-color-black);    
+.championship {
+  padding: 90px 0px 50px 0px;
 }
 
+.championship__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.championship__title {
+  font-family: "Oswald", sans-serif;
+  font-size: 3rem;
+  color: var(text-color-black);
+  margin: auto;
+  text-align: center;
+  margin-top: 1.2rem;
+}
+
+.championship__separator {
+  padding-top: 1.2rem;
+  margin: auto;
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+}
+
+.championship__text {
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.25rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 1.2rem;
+}
+
+.championship__player{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.championship__player-details {
+  display: flex;
+  flex-direction: column;
+  min-width: 40%;
+  flex-basis: 100%;
+  flex: 1;
+  justify-content: center;
+}
+
+.championship__player-details--name-point {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.championship__player-name {
+  justify-content: space-around;
+  flex: 1;
+}
+
+.championship__player-img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.championship__player-img--first {
+  border-radius: 50%;
+  object-fit: cover;
+  margin: auto;
+}
+
+.championship__players {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.championship__player--first {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  text-align: center;
+}
+
+.championship__players--second-fifth{
+  flex: 2;
+}
+
+.championship__player-name--first {
+  font-size: 1.75rem;
+  font-family: "Oswald", sans-serif;
+  color: var(--text-color-black);
+  font-weight: bold;
+}
+
+.championship__player-best-player {
+  font-size: 1.25rem;
+  font-family: "PT Sans", sans-serif;
+}
+
+.championship__player-point--first {
+  font-size: 1.75rem;
+  font-family: "Oswald", sans-serif;
+  color: var(--text-color-spotlight);
+  font-weight: bold;
+}
+
+.championship__player-rating{
+  font-size: 1.06rem;
+  font-family: "PT Sans", sans-serif;
+}
+
+.championship__player-name{
+  font-size: 1.38rem;
+  font-family: "Oswald", sans-serif;
+  color: var(--text-color-black);
+  font-weight: bold;
+}
+
+.championship__player-point{
+  font-size: 1.38rem;
+  font-family: "Oswald", sans-serif;
+  color: var(--text-color-black);
+  font-weight: bold;
+}
+
+.championship__player-place{
+  font-size: 1.38rem;
+  font-family: "Oswald", sans-serif;
+  color: var(--text-color-spotlight);
+}
 
 
-@media (max-width: 1024px) {
-    .championship{         
-        background-position: center;
-        background-size:cover;  
-        padding-top: 90px;
-        padding-bottom: 50px;
-        padding-left: 0px;
-        padding-right: 0px;      
-      
-    }  
-    
+@media (min-width: 320px) {
+  .championship__players{
+    display: flex;
+    flex-direction: column;
   }
+
+  .championship__player-img--first {
+    height: 70px;
+    width: 70px;
+  }
+
+  .championship__separator {
+    width: 240px;
+  }
+}
+
+@media (min-width: 768px) {
+  .championship__players{
+    flex-direction: row;
+  }
+
+  .championship__player-img--first {
+    height: 120px;
+    width: 120px;
+  }
+
+  .championship__separator {
+    width: 260px;
+  }
+}

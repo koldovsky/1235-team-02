@@ -4,6 +4,9 @@
 @import "./gallery.css";
 @import "./video.css";
 @import "./why.css";
+@import "../global/championship.css";
+
+
 
 [class*="__divider"] {
   margin: 25px 0 20px 0;
