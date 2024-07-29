@@ -1,5 +1,4 @@
 function init() {
-    import('./faq.main.js');
     import('./index.about-us-info-cards.js');
     import('./index.offer-carousel.js');
     import("./global/global.events-list.js");
