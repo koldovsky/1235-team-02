@@ -1,84 +1,62 @@
-.main {
+.schedule {
+  background-color: #00aaff; /* Основний фон /
+  color: #ffffff; / Колір тексту */
+  text-align: center;
+  padding: 50px 0;
+}
+
+.scheduletitle {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.scheduledescription {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.scheduledays {
   display: flex;
   justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
-
-.schedule {
-  max-width: 1000px;
-  width: 100%;
-  text-align: center;
-  padding: 40px;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  background-color: transparent;
-  }
-
-.schedule__title {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
-  color: #fff;
-}
-
-.schedule__description {
-  font-size: 1.2rem;
-  margin-bottom: 30px;
-  color: #fff;
-}
-
-.schedule__days {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
   gap: 20px;
 }
 
-.schedule__day {
-  flex: 1;
-  background-color: #f7f7f7;
+.scheduleday {
+  background-color: #ffffff;
+  color: #333333;
+  width: 200px;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.schedule__day-header {
-  background-color: #f4a22c;
-  padding: 10px;
+.scheduleday-header {
+  background-color: #ffc107;
+  color: #000000;
   font-weight: bold;
-  font-size: 1.2rem;
-  color: #333;
+  padding: 10px 0;
 }
 
-.schedule__day-content {
-  padding: 20px;
+.scheduleday-content {
+  padding: 10px 0;
 }
 
-.schedule__time {
-  margin: 10px 0;
-  font-size: 1rem;
-  color: #555;
+.scheduletime {
+  font-size: 16px;
+  margin: 5px 0;
 }
 
-.schedule__time span {
-  display: inline-block;
-  width: 60px;
-  font-weight: bold;
-}
-
-.schedule__button {
-  margin-top: 30px;
+.schedulebutton {
+  margin-top: 20px;
   padding: 10px 20px;
-  font-size: 1.1rem;
-  color: #008cba;
+  border: 2px solid #ffffff;
   background-color: transparent;
-  border: 2px solid #fff;
-  border-radius: 5px;
+  color: #ffffff;
+  font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .schedule__button:hover {
-  background-color: #fff;
-  color: #008cba;
+  background-color: #ffffff;
+  color: #00aaff;
 }
