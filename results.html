@@ -17,17 +17,13 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <header
-    class="header"
-  >
+  <header class="header">
     <nav
-      class="nav"
       data-hx-trigger="load"
       data-hx-swap="outerHTML"
       data-hx-get="global.header-nav.partial.html"
     ></nav>
     <div
-      class="index-hero"
       data-hx-trigger="load"
       data-hx-swap="outerHTML"
       data-hx-get="results.header-hero.partial.html"
@@ -36,35 +32,35 @@
   <body>
     <main>
       <section
-        class="tournaments"
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
         data-hx-get="results.tournaments.partial.html"
       ></section>
       <section
-        class="gallery"
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
         data-hx-get="results.gallery.partial.html"
       ></section>
       <section
-        class="gallery"
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
         data-hx-get="results.video.partial.html"
       ></section>
       <section
-        class="why"
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
         data-hx-get="results.why.partial.html"
       ></section>
       <section
-        class="schedule"
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
         data-hx-get="global.championship.partial.html"
       ></section>
+      <footer
+          data-hx-trigger="load"
+          data-hx-swap="outerHTML"
+          data-hx-get="global.footer.partial.html"
+      ></footer>
     </main>
   </body>
 </html>

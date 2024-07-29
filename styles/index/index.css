@@ -7,4 +7,6 @@
 @import "../global/events-list.css";
 @import "events-list.css";
 @import "play-chess.css";
+@import "schedule.css";
 @import "../global/championship.css";
+@import "../global/footer.css";
