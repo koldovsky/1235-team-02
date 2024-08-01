@@ -1,9 +1,9 @@
 const slides = [
-    '<div><img src="img/faq/awards1.png" alt="Award 1"/></div>',
-    '<div><img src="img/faq/awards2.png" alt="Award 2"/></div>',
-    '<div><img src="img/faq/awards3.png" alt="Award 3"/></div>',
-    '<div><img src="img/faq/awards4.png" alt="Award 4"/></div>',
-    '<div><img src="img/faq/awards5.png" alt="Award 5"/></div>',
+    '<div class="award-item"><img src="img/faq/awards1.png" alt="Best Junior Chess Player (2016)"/><p>Best Junior Chess Player (2016)</p></div>',
+    '<div class="award-item"><img src="img/faq/awards2.png" alt="Best Amateur Chess Player (2018)"/><p>Best Amateur Chess Player (2018)</p></div>',
+    '<div class="award-item"><img src="img/faq/awards3.png" alt="Chess Oscar, 2018"/><p>Chess Oscar, 2018</p></div>',
+    '<div class="award-item"><img src="img/faq/awards4.png" alt="USA Champion (2018)"/><p>USA Champion (2018)</p></div>',
+    '<div class="award-item"><img src="img/faq/awards5.png" alt="Best Chess Player (2019)"/><p>Best Chess Player (2019)</p></div>',
   ];
   
   let currentIdx = 0;
@@ -17,6 +17,10 @@ const slides = [
         if (window.matchMedia('(min-width: 968px)').matches) {
             const thirdSlideIdx = secondSlideIdx + 1 >= slides.length ? 0 : secondSlideIdx + 1;
             slideContainer.innerHTML += slides[thirdSlideIdx];
+            if (window.matchMedia('(min-width: 1200px)').matches) {
+              const fourthSlideIdx = (thirdSlideIdx + 1) % slides.length;
+              slideContainer.innerHTML += slides[fourthSlideIdx];
+          }
         }
     }
 }

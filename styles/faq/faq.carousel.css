@@ -1,12 +1,91 @@
+.awards-wrapper {
+  background-color: var(--text-color-black);
+  margin-top: 50px; 
+  padding: 20px; 
+  text-align: center;
+}
+
+.awards__title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 34px;
+  margin: auto;
+  padding: 50px; 
+  font-weight: bold;
+  text-align: center;
+  color: var(--text-color-white);
+}
+
+.awards__description {
+  color: var(--text-color-white);
+  font-size: 18px; 
+  padding: 5px;
+  
+}
+
+.award-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .awards-carousel__inner {
-    display: grid;
+  display: grid;
+  grid-template-columns: 50px 1fr 50px;
+  min-height: 200px; 
+}
+
+.awards-carousel__slides {
+  display: flex;
+  flex-direction: column; 
+  overflow: hidden;
+  align-items: center; 
+  justify-content: center; 
+  gap: 10px; 
+}
+
+.awards-carousel__slides img {
+  max-width: 150px; 
+  height: 150px; 
+  object-fit: contain;
+}
+
+.awards-carousel__slides p {
+  font-size: 16px; 
+  margin-top: 10px;
+  color: var(--text-color-white);
+  font-weight: bold;
+}
+
+.awards-carousel__btn-prev,
+.awards-carousel__btn-next {
+  background: none;
+  border: none;
+  font-size: 34px; 
+  cursor: pointer;
+  color: var(--text-color-grey);
+  margin: 0 20px; 
+}
+
+.awards-carousel__btn-prev:hover,
+.awards-carousel__btn-next:hover {
+  color: var(--text-color-white);
+}
+
+@media (min-width: 768px) {
+  .awards-wrapper {
+    padding: 50px;
+  }
+
+  .awards-carousel__inner {
     grid-template-columns: 100px 1fr 100px;
     min-height: 300px;
   }
-  
+
   .awards-carousel__slides {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
+    flex-direction: row; 
+    gap: 40px;
   }
+
+}
+
