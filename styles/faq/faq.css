@@ -2,6 +2,7 @@
 @import url("../global/header-nav.css");
 @import url("../global/variables.css");
 @import url("../global/footer.css");
+@import url("../faq/faq.carousel.css");
 
 .faq {
   display: flex;

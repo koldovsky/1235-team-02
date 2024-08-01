@@ -1,5 +1,6 @@
 function init() {
   import('./faq.titles.js');
+  import('./faq.awards-carousel.js');
 }
 
 const totalPartials = document.querySelectorAll('[hx-trigger="load"], [data-hx-trigger="load"]').length;
