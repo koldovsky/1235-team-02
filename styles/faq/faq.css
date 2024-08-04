@@ -19,14 +19,14 @@
 .faq__title {
   font-family: 'Oswald', sans-serif;
   font-size: 34px;
-    margin: auto;
-    padding: 50px;
-    font-weight: bold;
-    text-align: center;
+  margin: auto;
+  padding: 50px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .faq__divider {
-  width: 5%; 
+  width: 15%; 
   height: auto; 
   margin: auto;
   margin-bottom: 30px;
@@ -38,6 +38,7 @@
   color:var(--text-color-grey);
   font-size: 18px;
   padding: 5px;
+  text-align: center;
 }
 
 .accordion {

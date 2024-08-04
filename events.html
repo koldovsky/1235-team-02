@@ -52,7 +52,14 @@
            data-hx-get="events.reserve.partial"
       ></section>
     </main>
-
+    <footer class="footer">
+      <div 
+      class="footer-content"
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="global.footer.partial.html">
+      </div>
+    </footer>
     <script src="js/events.js"></script>
   </body>
 </html>
