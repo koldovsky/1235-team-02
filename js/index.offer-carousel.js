@@ -7,7 +7,7 @@ const slides = [
           <p class="carousel__text-block">
             By enrolling in our club, you can quickly learn all the intricacies of the game. Our tutors work with both beginners and experienced players. We will provide you with quality theory and practice, explain techniques that will help you analyze the situation on the board faster.
           </p>
-          <a href="#" class="carousel__block-button">Register</a>
+          <a href="contacts.html" class="carousel__block-button">Register</a>
         </div>
       </div>
     `,
@@ -19,7 +19,7 @@ const slides = [
           <p class="carousel__text-block">
             Chess helps a child increase his intellectual skills and mathematical abilities. Our tutors have vast experience in teaching children. We can clearly explain to any child how this game works and instill in him the principles of chess thinking and line of thinking.
           </p>
-          <a href="#" class="carousel__block-button">Register</a>
+          <a href="contacts.html" class="carousel__block-button">Register</a>
         </div>
       </div>
     `,
@@ -31,7 +31,7 @@ const slides = [
           <p class="carousel__text-block">
             Our chess club will help professionals and amateurs prepare to participate in tournaments. We will help to develop tactics, work out plans for the game, etc. We conduct complete and thorough training of chess players willing to take part in any chess championships.
           </p>
-          <a href="#" class="carousel__block-button">Register</a>
+          <a href="contacts.html" class="carousel__block-button">Register</a>
         </div>
       </div>
     `,

@@ -9,7 +9,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding-bottom: 4rem;
+  padding-bottom: 1rem;
   gap: 1.3rem;
 }
 .pricing__title {
@@ -108,4 +108,49 @@
 }
 .pricing-plan__details {
   color: var(--tournament-second-text-color);
+}
+
+.container_timer {
+  display: flex;
+  
+  border-radius: 1rem;
+  flex-direction: column;
+  height: 10%;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: var(--text-color)
+  
+}
+
+.timer_border{
+  border: 10px inset var(--btn-color-red);
+}
+
+
+.container_timer {
+  text-align: center;
+}
+
+.message {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.timer {
+  font-size: 2rem;
+  color: #333;
+}
+
+.new_price{
+  font-size: 70%;
+  margin-left: 0.5rem;
+  color: var(--btn-color-red);
+}
+
+.line_through {
+  text-decoration: line-through;
 }

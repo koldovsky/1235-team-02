@@ -26,6 +26,24 @@
 
   .tournament__carousel {
     margin: 130px 0 90px 0;
+    position: relative;
+
+    .carousel__button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: transparent;
+      border: none;
+    }
+
+    .carousel__button--right {
+      left: 100%;
+    }
+
+    .carousel__button--left {
+      right: 100%;
+    }
+  }
 
     .carousel {
       .carousel__track {
@@ -68,7 +86,6 @@
       }
     }
   }
-}
 
 @media (min-width: 768px) {
   .tournament {
@@ -113,7 +130,19 @@
     .tournament__carousel {
       .carousel {
         .carousel__track {
-          grid-template-columns: repeat(5, 1fr);
+          grid-template-columns: repeat(3, 1fr);
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1250px) {
+  .tournament {
+    .tournament__carousel {
+      .carousel {
+        .carousel__track {
+          grid-template-columns: repeat(4, 1fr);
         }
       }
     }

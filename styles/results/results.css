@@ -25,17 +25,6 @@
   font-size: 34px;
 }
 
-/* Поки нема js (карусель) прибрав кнопки та інші картинки, щоб не відволікало */
-
-.gallery__images {
-  .gallery__image-container:not(:first-of-type) {
-    display: none;
-  }
-}
-
-.carousel__button, .gallery__button {
-  display: none;
-}
 
 @media (min-width: 768px) {
   [class*='__title'] {
