@@ -1,15 +1,15 @@
 const slides = [
-  '<div class="gallery__image"><img class="gallery__image-item" src="../../img/result-page/two-men-are-playing.png" alt="Two men are playing chess"></div>',
-  '<div class="gallery__image"><img class="gallery__image-item" src="../../img/result-page/man-is-thinking.png" alt="Men is thinking about his next move"></div>',
-  '<div class="gallery__image"><img class="gallery__image-item" src="../../img/result-page/chess-desk.png" alt="Chess Desk"></div>',
-  '<div class="gallery__image"><img class="gallery__image-item" src="../../img/result-page/by-bye.png" alt="Two men are shaking hands after a game"></div>',
+  '<div class="gallery__image"><img class="gallery__image-item" src="img/result-page/two-men-are-playing.png" alt="Two men are playing chess"></div>',
+  '<div class="gallery__image"><img class="gallery__image-item" src="img/result-page/man-is-thinking.png" alt="Men is thinking about his next move"></div>',
+  '<div class="gallery__image"><img class="gallery__image-item" src="img/result-page/chess-desk.png" alt="Chess Desk"></div>',
+  '<div class="gallery__image"><img class="gallery__image-item" src="img/result-page/by-bye.png" alt="Two men are shaking hands after a game"></div>',
 ];
 
 const thumbnailsArr = [
-  '<button class="gallery__thumbnail" type="button"><img src="../../img/result-page/two-men-are-playing.png" alt="Two men are playing chess" /></button>',
-  '<button class="gallery__thumbnail" type="button"><img src="../../img/result-page/man-is-thinking.png" alt="Men is thinking about his next move" /></button>',
-  '<button class="gallery__thumbnail" type="button"><img src="../../img/result-page/chess-desk.png" alt="Chess Desk" /></button>',
-  '<button class="gallery__thumbnail" type="button"><img src="../../img/result-page/by-bye.png" alt="Two men are shaking hands after a game" /></button>'
+  '<button class="gallery__thumbnail" type="button"><img src="img/result-page/two-men-are-playing.png" alt="Two men are playing chess" /></button>',
+  '<button class="gallery__thumbnail" type="button"><img src="img/result-page/man-is-thinking.png" alt="Men is thinking about his next move" /></button>',
+  '<button class="gallery__thumbnail" type="button"><img src="img/result-page/chess-desk.png" alt="Chess Desk" /></button>',
+  '<button class="gallery__thumbnail" type="button"><img src="img/result-page/by-bye.png" alt="Two men are shaking hands after a game" /></button>'
 ];
 
 let currentIdx = 0;
