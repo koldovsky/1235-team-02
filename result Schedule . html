@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule</title> <!-- назва сторінки -->
+</head>
+<body>
+    <section> <!-- основний блок -->
+        <h2>Schedule</h2> <!-- заголовок секції -->
+        <p>We conduct classes every day for groups of different levels and ages. Join us at any convenient day and time!</p> <!-- опис блоку -->
+        
+        <div> <!-- відкриття основного блоку -->
+            <div> <!-- відкриття блоку -->
+                <h3>MONDAY</h3> <!-- заголовок з назвою дня -->
+                <p>6-7pm - Kids, A</p> <!-- опис час та група -->
+                <p>7-8pm - Group B</p>
+                <p>8-9pm - Group C</p>
+                <p>8-9pm - Group A</p>
+            </div> <!-- закриття блоку -->
+            
+            <div> <!-- відкриття блоку -->
+                <h3>WEDNESDAY</h3> <!-- заголовок з назвою дня -->
+                <p>6-7pm - Kids, B</p> <!-- опис час та група -->
+                <p>7-8pm - Pro</p>
+                <p>8-9pm - Group B</p>
+                <p>8-9pm - Group C</p>
+            </div> <!-- закриття блоку -->
+            
+            <div> <!-- відкриття блоку -->
+                <h3>FRIDAY</h3> <!-- заголовок з назвою дня -->
+                <p>6-7pm - Kids, A</p> <!-- опис час та група -->
+                <p>7-8pm - Kids, B</p>
+                <p>8-9pm - Group A</p>
+                <p>8-9pm - Pro</p>
+            </div> <!-- закриття блоку -->
+            
+            <div> <!-- відкриття блоку -->
+                <h3>SUNDAY</h3> <!-- заголовок з назвою дня -->
+                <p>6-7pm - Group B</p> <!-- опис час та група -->
+                <p>7-8pm - Group C</p>
+                <p>8-9pm - Kids, B</p>
+                <p>8-9pm - Group A</p>
+            </div> <!-- закриття блоку -->
+        </div> <!-- закриття основного блоку -->
+        
+        <button>Learn More</button> <!-- кнопка для інформації -->
+    </section>
+</body>
+</html>
