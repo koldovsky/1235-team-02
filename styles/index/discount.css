@@ -41,6 +41,10 @@
   border-radius: 4px;
 }
 
+.discount-inner__register-button:hover {
+  background-color: var(--btn-color-green);
+}
+
 @media (min-width: 768px) {
   .discount-inner__title {
     font-size: 4.8rem;
