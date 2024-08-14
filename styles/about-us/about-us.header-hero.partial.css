@@ -1,0 +1,28 @@
+.about-us-hero {
+  background-image: url("../../img/pages-hero/about-us.png");
+  background-size: cover;
+  height: 550px;
+  margin-bottom: 100px;
+  width: auto;
+  background-position: center;
+}
+.about-us-hero__title {
+  font-family: "Oswald", sans-serif;
+  color: var(--text-color-white);
+  padding-left: 30px;
+  font-size: 95px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  width: 60%;
+}
+@media (max-width: 700px) {
+  .about-us-hero__title {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 500px) {
+  .about-us-hero__title {
+    font-size: 2rem;
+  }
+}
